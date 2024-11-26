@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chalkboard {
+  background-image: url('@/assets/chalkboard_lit_cropped.jpg');
+  background-size: cover;
+}
+
+.panelling {
+  background-image: url('@/assets/panelling.jpg');
+  background-size: cover;
+  background-position: right top;
+}
+
+.panellingRight {
+  background-image: url('@/assets/panelling_right.jpg');
+  background-size: cover;
+}
+
+.overlay {
+  background-image: url('@/assets/overlay.jpg');
+  background-repeat: repeat;
+}
+
+@font-face {
+  font-family: 'eraserregular';
+  src: url('EraserRegular-webfont.eot');
+  src:
+    url('EraserRegular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('EraserRegular-webfont.woff2') format('woff2'),
+    url('EraserRegular-webfont.woff') format('woff'),
+    url('EraserRegular-webfont.ttf') format('truetype'),
+    url('EraserRegular-webfont.svg#eraserregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
