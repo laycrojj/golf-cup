@@ -43,3 +43,8 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Deploy to github pages by first building with NPM build and then commiting the dist folder to the gh-pages branch 
+```sh
+git subtree push --prefix dist origin gh-pages
+```
